@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://www.google.com/";//your website url
+  let target = "https://flowus.cn/krbai/share/ba8555b8-b56b-4aaa-8c7c-2a34d8c6d78a?code=M7NP5V&embed=true";//your website url
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
